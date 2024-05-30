@@ -222,8 +222,8 @@ namespace Lib::Sdl
 	inline char *basePath = SDL_GetBasePath();
 	/*inline string assetPath = "D:\\Projects\\SdlProject\\Images\\";
 	inline string fontPath = "D:\\Projects\\SdlProject\\Fonts\\";*/
-	inline string assetPath = "D:\\Projects\\SdlProject\\Images\\";
-	inline string fontPath = "D:\\Projects\\SdlProject\\Fonts\\";
+	inline string assetPath = "Assets\\Images";
+	inline string fontPath = "Assets\\Fonts";
 		
 	int CreateWindowAndRenderer(int width, int height, Uint32 windowFlags, Window &window, Renderer &renderer);
 
