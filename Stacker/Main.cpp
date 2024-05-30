@@ -46,6 +46,9 @@ int main(int argc, char *argv[]) // main is now a macro!
 	IMG_Init(IMG_INIT_PNG);
 	TTF_Init();
 	SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1");
+	basePath = SDL_GetBasePath();
+	assetPath = string(basePath) + "Assets\\Images\\";
+	fontPath = string(basePath) + "Assets\\Fonts\\";
 	SDL_Event event = {};
 	Window window = {};
 	Renderer renderer = {};
