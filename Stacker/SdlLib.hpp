@@ -219,11 +219,11 @@ namespace Lib::Sdl
 	struct Window;
 	struct Renderer;
 
-	inline char *basePath = SDL_GetBasePath();
+	inline char *basePath;
 	/*inline string assetPath = "D:\\Projects\\SdlProject\\Images\\";
 	inline string fontPath = "D:\\Projects\\SdlProject\\Fonts\\";*/
-	inline string assetPath = "Assets\\Images";
-	inline string fontPath = "Assets\\Fonts";
+	inline string assetPath;
+	inline string fontPath;
 		
 	int CreateWindowAndRenderer(int width, int height, Uint32 windowFlags, Window &window, Renderer &renderer);
 
