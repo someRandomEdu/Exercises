@@ -1389,7 +1389,7 @@ namespace Stacker
 				{
 					score += 300;
 				}
-				else // Triples
+				else if (currentLineClearData.linesCleared == 3) // Triples
 				{
 					score += 500;
 				}
